@@ -1,0 +1,42 @@
+html,
+body {
+    width: 100%;
+    min-height: 100%;
+}
+
+body{
+    background-color: rgba(245,245,245,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(247,247,247,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(247,247,247,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(247,247,247,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(247,247,247,1) 100%);
+}
+
+.tidy {
+    margin: 0;
+    padding: 0;
+}
+.vertical-center {
+    display: flex;
+    align-items: center;
+}
+table {
+    table-layout: fixed;
+    word-wrap: break-word;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:active{
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
